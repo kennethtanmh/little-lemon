@@ -1,0 +1,55 @@
+.booking-confirmation {
+  height: 100vh;
+  background-color: #495e57;
+  font-family: "Karla", sans-serif;
+  color: #edefee;
+}
+
+.navbar {
+  background-color: #edefee;
+}
+
+.confirmation-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+  margin: 4rem 4rem;
+}
+
+.confirmation-heading {
+  font-weight: 800;
+  font-size: 32px;
+  color: #f4ce14;
+}
+
+.confirmation-card {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  color: #edefee;
+  gap: 2rem;
+}
+
+.confirmation-details {
+  font-weight: 800;
+  font-size: 24px;
+  align-items: left;
+}
+
+.confirmation-button {
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+  color: #333333;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 20px 24px;
+  min-width: 8rem;
+}
+
+.confirmation-button:hover {
+  background-color: #f4ce14;
+}

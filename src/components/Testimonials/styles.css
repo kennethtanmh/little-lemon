@@ -1,0 +1,71 @@
+.testimonials {
+  height: 100%;
+  background-color: #495e57;
+  color: #edefee;
+  padding: 2rem;
+  font-family: "Markazi Text", serif;
+}
+
+.testimonials-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonials-title {
+  font-weight: 800;
+  font-size: 48px;
+  color: #edefee;
+}
+
+.testimonials-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.testimonials-map-container {
+  background-color: #fbdabb;
+  color: #333333;
+  text-align: center;
+}
+
+.testimonials-name {
+  font-weight: 900;
+}
+
+.testimonials-player-img {
+  width: 250px;
+  height: 250px;
+}
+
+.about-text-2 {
+  font-size: 32px;
+  color: #edefee;
+  font-family: "Karla", sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .testimonials-card {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .testimonials-card {
+    /* Adjust the grid-template-columns to create a two-column layout on larger screens */
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .testimonials-card {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 4rem;
+  }
+}
