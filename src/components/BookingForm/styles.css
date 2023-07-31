@@ -97,3 +97,25 @@ label {
 .submit-button:hover {
   background-color: #f4ce14;
 }
+
+/* Media Query for Smartphones */
+@media (max-width: 767px) {
+  .subheading {
+    font-size: 32px;
+  }
+
+  .subheading-2 {
+    font-size: 24px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    margin: 1rem 3rem;
+  }
+
+  .page-button,
+  .submit-button {
+    margin: 1rem 0;
+    min-width: 100%;
+  }
+}
