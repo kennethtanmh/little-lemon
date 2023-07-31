@@ -53,3 +53,22 @@
 .confirmation-button:hover {
   background-color: #f4ce14;
 }
+
+/* Media Query for Smartphones */
+@media (max-width: 767px) {
+  .confirmation-heading {
+    font-size: 24px;
+  }
+
+  .confirmation-details {
+    font-size: 20px;
+  }
+
+  .confirmation-container {
+    margin: 2rem;
+  }
+
+  .confirmation-card {
+    gap: 1rem;
+  }
+}
